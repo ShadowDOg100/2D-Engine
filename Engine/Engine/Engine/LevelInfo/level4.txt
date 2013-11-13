@@ -1,0 +1,10 @@
+//,levelinfo,<levelname>,<width>,<height>
+levelinfo,level4,800,600
+
+//,loadmenu,<menufilename>
+loadmenu,LoseMenu
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+
+//,background,<spritename/none>
+background,none

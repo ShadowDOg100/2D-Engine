@@ -1,0 +1,146 @@
+//,levelinfo,<levelname>,<width>,<height>
+levelinfo,level1,4000,600
+
+//,loadmenu,<menufilename>
+loadmenu,HUD
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+loadsprite,sprite1,red.png,0,0,50,50,1,false
+loadsprite,sprite2,blue.png,0,0,50,50,1,false
+
+loadsprite,sprite4,Block1.png,0,0,150,150,1,false
+loadsprite,sprite5,Block2.png,0,0,300,150,1,false
+loadsprite,sprite6,Block3.png,0,0,450,150,1,false
+loadsprite,sprite7,Spike1.png,0,0,261,434,1,false
+loadsprite,sprite8,Spike2.png,0,0,500,500,1,false
+loadsprite,sprite9,Spike3.png,0,0,800,800,1,false
+loadsprite,sprite10,Hour Glass.png,0,0,419,607,1,false
+
+loadsprite,sprite11,Background.png,4000,0,4000,600,1,false
+
+loadsprite,runrightSprite,sheet.png,0,0,160,190,9,true
+loadsprite,runleftSprite,sheet_reverse.png,0,0,160,190,9,true
+loadsprite,standrightSprite,stand.png,0,0,160,190,1,false
+loadsprite,standleftSprite,stand2.png,0,0,160,190,1,false
+loadsprite,jumprightSprite,jump.png,0,0,160,190,1,false
+loadsprite,jumpleftSprite,jump2.png,0,0,160,190,1,false
+loadsprite,fallrightSprite,falling_sheet.png,0,0,160,210,2,true
+loadsprite,fallleftSprite,falling_sheet2.png,0,0,160,210,2,true
+
+//,background,<spritename/none>
+background,sprite11
+
+
+//,player,<player/nonplayer>,<x>,<y>,<width>,<height>,<spritename>,<gameid>
+player,player,2,490,30,30,standrightSprite,1
+
+//,obsticle,<x>,<y>,<width>,<height>,<spritename>,<solid>,<gameid>
+//, left wall - so you can't go off the screen
+obsticle,-1,0,2,600,none,true,-1
+
+//,obstalce block1 50 by 50 sprite
+//,LEVEL2
+obsticle,200,550,50,50,sprite4,true,23
+obsticle,320,500,50,50,sprite4,true,24
+obsticle,460,450,50,50,sprite4,true,25
+obsticle,600,400,50,50,sprite4,true,26
+obsticle,740,350,50,50,sprite4,true,27
+obsticle,880,300,50,50,sprite4,true,28
+obsticle,1020,250,50,50,sprite4,true,29
+obsticle,1160,200,50,50,sprite4,true,30
+obsticle,1300,150,50,50,sprite4,true,31
+obsticle,1440,100,50,50,sprite4,true,32
+obsticle,1580,50,50,50,sprite4,true,33
+obsticle,1720,50,50,50,sprite4,true,34
+obsticle,1020,550,50,50,sprite4,true,35
+obsticle,1150,500,50,50,sprite4,true,36
+obsticle,1290,450,50,50,sprite4,true,37
+obsticle,1430,400,50,50,sprite4,true,38
+obsticle,1570,350,50,50,sprite4,true,39
+obsticle,1710,300,50,50,sprite4,true,40
+obsticle,1860,250,50,50,sprite4,true,41
+obsticle,2000,300,50,50,sprite4,true,42
+obsticle,2140,350,50,50,sprite4,true,43
+obsticle,2280,400,50,50,sprite4,true,44
+obsticle,2420,450,50,50,sprite4,true,45
+obsticle,2560,450,50,50,sprite4,true,46
+obsticle,2700,400,50,50,sprite4,true,47
+obsticle,2840,350,50,50,sprite4,true,48
+obsticle,2980,350,50,50,sprite4,true,49
+obsticle,3950,550,50,50,sprite4,true,50
+
+
+//,obstacle block2 100 by 50 sprite
+//,LEVEL2 - 4000
+obsticle,0,550,100,50,sprite5,true,73
+obsticle,100,550,100,50,sprite5,true,74
+obsticle,920,550,100,50,sprite5,true,75
+obsticle,3000,550,100,50,sprite5,true,76
+obsticle,3100,550,100,50,sprite5,true,77
+
+//,obstacle block3 150 by 50 sprite 
+//,LEVEL 2 - 4000
+obsticle,1760,550,150,50,sprite6,true,100
+obsticle,3200,550,150,50,sprite6,true,101
+obsticle,3350,550,150,50,sprite6,true,102
+obsticle,3500,550,150,50,sprite6,true,103
+obsticle,3650,550,150,50,sprite6,true,104
+obsticle,3800,550,150,50,sprite6,true,105
+
+//,obstacle spike1 50 by 50 sprite  
+//,LEVEL 2
+trigger,389,549,32,2,none,0,3
+obsticle,387,550,40,50,sprite7,true,109
+trigger,530,549,32,2,none,0,3
+
+obsticle,530,550,40,50,sprite7,true,110
+trigger,880,549,32,2,none,0,3
+
+obsticle,880,550,40,50,sprite7,true,111
+trigger,1090,549,32,2,none,0,3
+obsticle,1090,550,40,50,sprite7,true,112
+trigger,1385,549,32,2,none,0,3
+obsticle,1385,550,40,50,sprite7,true,113
+trigger,1680,549,32,2,none,0,3
+obsticle,1680,550,40,50,sprite7,true,114
+trigger,1930,549,32,2,none,0,3
+obsticle,1930,550,40,50,sprite7,true,115
+trigger,1490,549,32,2,none,0,3
+obsticle,1490,550,40,50,sprite7,true,116
+trigger,1770,549,32,2,none,0,3
+obsticle,1770,550,40,50,sprite7,true,117
+
+
+//,obstacle spike2 100 by 50 sprite
+
+//,obstacle spike3 150 by 50 sprite
+
+//,obstacle Hour Glass  
+
+//,LEVEL 2
+trigger,920,500,40,40,sprite10,-1,2
+trigger,1710,250,40,50,sprite10,-1,2
+trigger,2700,350,40,50,sprite10,-1,2
+
+//, Warp Door
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+trigger,3975,0,25,600,none,0,4
+
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+//, This trigger is the bottom so if you fall, you die
+trigger,0,599,4000,2,none,0,1
+
+
+//,gamemessageI,<type>,<qual>,<p1>,<p2>
+//,gamemessageF,<type>,<qual>,<p1>,<p2>
+gamemessageF,1,1,250.0,-1
+gamemessageF,2,1,-250.0,-1
+gamemessageF,2,2,0,0
+gamemessageSprite,2,3,0,runrightSprite
+gamemessageSprite,2,3,1,runleftSprite
+gamemessageSprite,2,3,2,standrightSprite
+gamemessageSprite,2,3,3,standleftSprite
+gamemessageSprite,2,3,4,jumprightSprite
+gamemessageSprite,2,3,5,jumpleftSprite
+gamemessageSprite,2,3,6,fallrightSprite
+gamemessageSprite,2,3,7,fallleftSprite

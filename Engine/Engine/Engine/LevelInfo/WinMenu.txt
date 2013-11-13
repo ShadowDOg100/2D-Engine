@@ -1,0 +1,9 @@
+name,menu3
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+
+//,menudata,<x>,<y>,<width>,<height>,<spritename>,<userinfo>
+menudata,300,300,120,120,none,1
+
+//,button,<x>,<y>,<width>,<height>,<text>,<usp>,<hsp>,<dsp>,<userinfo>
+text,10,10,100,30,you win,none,0

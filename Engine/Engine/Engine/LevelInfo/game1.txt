@@ -1,0 +1,3 @@
+start,level,StartScreen
+fps,30
+pps,100

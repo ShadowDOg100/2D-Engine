@@ -1,0 +1,14 @@
+name,menu2
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+loadsprite,sprite1,red.png,0,0,25,25,1,false
+loadsprite,sprite2,blue.png,0,0,25,25,1,false
+
+//,menudata,<x>,<y>,<width>,<height>,<spritename>,<userinfo>
+menudata,0,0,110,70,none,1
+
+//,bar,<x>,<y>,<width>,<height>,<text>,<backgroundID>,<foregroundID>,<userinfo>
+bar,5,5,100,25,MyLife(%.0f),sprite1,sprite2,1
+
+//,timer,<x>,<y>,<width>,<height>,<text>,<backgroundID>,<userinfo>
+timer,5,35,100,25,Time(%d:%.1f),none,5

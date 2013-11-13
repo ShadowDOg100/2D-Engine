@@ -1,0 +1,5 @@
+levelinfo,level4,800,600
+
+loadmenu,WinMenu
+
+background,none

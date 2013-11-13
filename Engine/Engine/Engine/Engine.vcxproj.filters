@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="IOCore\TimerControl.cpp">
+      <Filter>Header Files\IOCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AICore\AICORE.cpp">
+      <Filter>Source Files\AICore</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCore\BaseGame.cpp">
+      <Filter>Source Files\MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AICore\character.cpp">
+      <Filter>Source Files\AICore</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCore\MainCore.cpp">
+      <Filter>Source Files\MainCore</Filter>
+    </ClCompile>
+    <ClCompile Include="AICore\Obstacle.cpp">
+      <Filter>Source Files\AICore</Filter>
+    </ClCompile>
+    <ClCompile Include="AICore\Trigger.cpp">
+      <Filter>Source Files\AICore</Filter>
+    </ClCompile>
+    <ClCompile Include="AICore\Vector2D.cpp">
+      <Filter>Source Files\AICore</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\messenger.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore\DirectInterface.cpp">
+      <Filter>Source Files\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore\GraphicsCore.cpp">
+      <Filter>Source Files\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCore\InputManager.cpp">
+      <Filter>Source Files\IOCore</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCore\IOCore.cpp">
+      <Filter>Source Files\IOCore</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCore\Menu.cpp">
+      <Filter>Source Files\IOCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore\Sprites.cpp">
+      <Filter>Source Files\GraphicsCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCore\Text.cpp">
+      <Filter>Source Files\GraphicsCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AICore\AICORE.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCore\BaseGame.h">
+      <Filter>Header Files\MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICore\Character.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICore\Messages.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICore\Obstacle.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICore\Vector2D.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="AICore\Trigger.h">
+      <Filter>Header Files\AICore</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LinkList.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\msgdata.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\observer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore\DirectInterface.h">
+      <Filter>Header Files\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore\GraphicsCore.h">
+      <Filter>Header Files\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore\Sprites.h">
+      <Filter>Header Files\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCore\Text.h">
+      <Filter>Header Files\GraphicsCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\InputManager.h">
+      <Filter>Header Files\IOCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\IOCore.h">
+      <Filter>Header Files\IOCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\IOCoreMessage.h">
+      <Filter>Header Files\IOCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\IOManager.h">
+      <Filter>Header Files\IOCore</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\menu.h">
+      <Filter>Header Files\IOCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCore\MainCore.h">
+      <Filter>Header Files\MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCore\MainCoreMessages.h">
+      <Filter>Header Files\MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCore\MainCoreMessaging.h">
+      <Filter>Header Files\MainCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\messenger.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCore\TimerControl.h">
+      <Filter>Source Files\IOCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0ceec4fe-f499-4219-969b-778d2cfe87d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AICore">
+      <UniqueIdentifier>{1757ca64-c7a5-4d6b-865b-4568e81fba9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{02a734ec-5946-4557-aea4-7c6dece09084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicsCore">
+      <UniqueIdentifier>{c2605ad5-cfe7-4b28-a4ac-879e08f456ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IOCore">
+      <UniqueIdentifier>{0645b1be-46e6-4f9a-99b7-d1d4e432e7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainCore">
+      <UniqueIdentifier>{d7808737-b6a2-4a59-ad15-2b852039cbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b14257d2-b32f-40bd-be29-c6002fd7cef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AICore">
+      <UniqueIdentifier>{e878f0e0-b529-41b3-8ccd-da78cf1ca635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{924f4472-f7b6-4284-a1c1-4c77f10e92fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsCore">
+      <UniqueIdentifier>{10cd7db1-ef8c-44ee-a06b-919486e8f2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IOCore">
+      <UniqueIdentifier>{0cc49a13-b80d-4591-b40d-09521083c597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainCore">
+      <UniqueIdentifier>{d2095921-cb79-45f5-878d-8dd5e1b6fdb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

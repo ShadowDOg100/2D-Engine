@@ -1,0 +1,147 @@
+//,levelinfo,<levelname>,<width>,<height>
+levelinfo,level1,3200,600
+
+//,loadmenu,<menufilename>
+loadmenu,HUD
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+loadsprite,sprite1,red.png,0,0,50,50,1,false
+loadsprite,sprite2,blue.png,0,0,50,50,1,false
+
+loadsprite,sprite4,Block1.png,0,0,150,150,1,false
+loadsprite,sprite5,Block2.png,0,0,300,150,1,false
+loadsprite,sprite6,Block3.png,0,0,450,150,1,false
+loadsprite,sprite7,Spike1.png,0,0,261,434,1,false
+loadsprite,sprite8,Spike2.png,0,0,500,500,1,false
+loadsprite,sprite9,Spike3.png,0,0,800,800,1,false
+loadsprite,sprite10,Hour Glass.png,0,0,419,607,1,false
+
+loadsprite,sprite11,Background.png,4000,0,3200,600,1,false
+
+loadsprite,runrightSprite,sheet.png,0,0,160,190,9,true
+loadsprite,runleftSprite,sheet_reverse.png,0,0,160,190,9,true
+loadsprite,standrightSprite,stand.png,0,0,160,190,1,false
+loadsprite,standleftSprite,stand2.png,0,0,160,190,1,false
+loadsprite,jumprightSprite,jump.png,0,0,160,190,1,false
+loadsprite,jumpleftSprite,jump2.png,0,0,160,190,1,false
+loadsprite,fallrightSprite,falling_sheet.png,0,0,160,210,2,true
+loadsprite,fallleftSprite,falling_sheet2.png,0,0,160,210,2,true
+
+//,background,<spritename/none>
+background,sprite11
+
+
+//,player,<player/nonplayer>,<x>,<y>,<width>,<height>,<spritename>,<gameid>
+player,player,2,490,30,30,standrightSprite,1
+
+//,obsticle,<x>,<y>,<width>,<height>,<spritename>,<solid>,<gameid>
+//, left wall - so you can't go off the screen
+obsticle,-1,0,2,600,none,true,-1
+
+//,obstalce block1 50 by 50 sprite
+
+//,LEVEL 3
+obsticle,350,410,50,50,sprite4,true,51
+obsticle,750,240,50,50,sprite4,true,52
+obsticle,900,200,50,50,sprite4,true,53
+obsticle,1300,550,50,50,sprite4,true,54
+obsticle,1500,150,50,50,sprite4,true,55
+obsticle,1450,470,50,50,sprite4,true,56
+obsticle,2200,550,50,50,sprite4,true,57
+obsticle,2350,450,50,50,sprite4,true,58
+obsticle,2500,350,50,50,sprite4,true,59
+obsticle,2650,250,50,50,sprite4,true,60
+obsticle,2750,350,50,50,sprite4,true,61
+obsticle,2900,550,50,50,sprite4,true,62
+
+
+//,obstacle block2 100 by 50 sprite
+//,LEVEL 3 - 8000
+obsticle,0,550,100,50,sprite5,true,78
+obsticle,140,500,100,50,sprite5,true,79
+obsticle,500,500,100,50,sprite5,true,80
+obsticle,520,300,100,50,sprite5,true,81
+obsticle,1050,100,100,50,sprite5,true,82
+obsticle,950,500,100,50,sprite5,true,83
+obsticle,1047,500,100,50,sprite5,true,84
+obsticle,1200,250,100,50,sprite5,true,85
+obsticle,1295,250,100,50,sprite5,true,86
+obsticle,1600,350,100,50,sprite5,true,87
+obsticle,1695,350,100,50,sprite5,true,88
+obsticle,1930,350,100,50,sprite5,true,89
+obsticle,2025,350,100,50,sprite5,true,90
+obsticle,2240,250,100,50,sprite5,true,91
+
+
+//,obstacle block3 150 by 50 sprite 
+
+//,obstacle spike1 50 by 50 sprite  
+//,LEVEL 3
+trigger,264,549,32,2,none,0,3
+obsticle,260,550,40,50,sprite7,true,118
+trigger,304,549,32,2,none,0,3
+obsticle,300,550,40,50,sprite7,true,119
+trigger,344,549,32,2,none,0,3
+obsticle,340,550,40,50,sprite7,true,120
+trigger,384,549,32,2,none,0,3
+obsticle,380,550,40,50,sprite7,true,121
+trigger,424, 549,32,2,none,0,3
+obsticle,420,550,40,50,sprite7,true,122
+trigger,344,549,32,2,none,0,3
+obsticle,460,550,40,50,sprite7,true,123
+trigger,911,552,42,2,none,0,3
+obsticle,907,553,50,50,sprite7,true,124
+trigger,1804,549,32,2,none,0,3
+obsticle,1800,550,40,50,sprite7,true,125
+trigger,1844,549,32,2,none,0,3
+obsticle,1840,550,40,50,sprite7,true,126
+trigger,1884,549,32,2,none,0,3
+obsticle,1880,550,40,50,sprite7,true,127
+trigger,2804,399,32,2,none,0,3
+obsticle,2800,400,40,50,sprite7,true,128
+trigger,2844,399,32,2,none,0,3
+obsticle,2840,400,40,50,sprite7,true,129
+
+//,obstacle spike2 100 by 50 sprite
+//,LEVEL 3
+trigger,1200,552,92,2,none,0,3
+obsticle,1194,553,100,50,sprite8,true,134
+trigger,2254,552,92,2,none,0,3
+obsticle,2250,553,100,50,sprite8,true,135
+trigger,2354,552,92,2,none,0,3
+obsticle,2350,553,100,50,sprite8,true,136
+
+//,obstacle spike3 150 by 50 sprite
+//,LEVEL 3
+obsticle,2050,550,150,50,sprite9,true,141
+
+
+
+//,obstacle Hour Glass  
+//,LEVEL 3
+trigger,760,190,40,50,sprite10,-1,2
+trigger,1510,100,40,50,sprite10,-1,2
+trigger,2205,500,40,50,sprite10,-1,2
+
+//, Warp Door - not available - use obstacle instead
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+obsticle,3995,0,10,600,none,0,142
+
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+//, This trigger is the bottom so if you fall, you die
+trigger,0,599,3200,2,none,0,1
+
+
+//,gamemessageI,<type>,<qual>,<p1>,<p2>
+//,gamemessageF,<type>,<qual>,<p1>,<p2>
+gamemessageF,1,1,250.0,-1
+gamemessageF,2,1,-250.0,-1
+gamemessageF,2,2,0,0
+gamemessageSprite,2,3,0,runrightSprite
+gamemessageSprite,2,3,1,runleftSprite
+gamemessageSprite,2,3,2,standrightSprite
+gamemessageSprite,2,3,3,standleftSprite
+gamemessageSprite,2,3,4,jumprightSprite
+gamemessageSprite,2,3,5,jumpleftSprite
+gamemessageSprite,2,3,6,fallrightSprite
+gamemessageSprite,2,3,7,fallleftSprite

@@ -1,0 +1,294 @@
+//,levelinfo,<levelname>,<width>,<height>
+levelinfo,level1,4000,600
+
+//,loadmenu,<menufilename>
+loadmenu,HUD
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+loadsprite,sprite1,red.png,0,0,50,50,1,false
+loadsprite,sprite2,blue.png,0,0,50,50,1,false
+
+loadsprite,sprite4,Block1.png,0,0,150,150,1,false
+loadsprite,sprite5,Block2.png,0,0,300,150,1,false
+loadsprite,sprite6,Block3.png,0,0,450,150,1,false
+loadsprite,sprite7,Spike1.png,0,0,261,434,1,false
+loadsprite,sprite8,Spike2.png,0,0,500,500,1,false
+loadsprite,sprite9,Spike3.png,0,0,800,800,1,false
+loadsprite,sprite10,Hour Glass.png,0,0,419,607,1,false
+
+loadsprite,sprite11,Background.png,0,0,8000,600,1,false
+
+loadsprite,runrightSprite,sheet.png,0,0,160,190,9,true
+loadsprite,runleftSprite,sheet_reverse.png,0,0,160,190,9,true
+loadsprite,standrightSprite,stand.png,0,0,160,190,1,false
+loadsprite,standleftSprite,stand2.png,0,0,160,190,1,false
+loadsprite,jumprightSprite,jump.png,0,0,160,190,1,false
+loadsprite,jumpleftSprite,jump2.png,0,0,160,190,1,false
+loadsprite,fallrightSprite,falling_sheet.png,0,0,160,210,2,true
+loadsprite,fallleftSprite,falling_sheet2.png,0,0,160,210,2,true
+
+//,background,<spritename/none>
+background,sprite11
+
+
+//,player,<player/nonplayer>,<x>,<y>,<width>,<height>,<spritename>,<gameid>
+player,player,2,490,30,30,standrightSprite,1
+
+//,obsticle,<x>,<y>,<width>,<height>,<spritename>,<solid>,<gameid>
+//, left wall - so you can't go off the screen
+obsticle,-1,0,2,600,none,true,-1
+
+//,obstalce block1 50 by 50 sprite
+//,LEVEL 1
+obsticle,250,460,50,50,sprite4,true,2
+obsticle,350,410,50,50,sprite4,true,3
+obsticle,450,370,50,50,sprite4,true,4
+obsticle,550,310,50,50,sprite4,true,5
+obsticle,650,240,50,50,sprite4,true,6
+obsticle,750,240,50,50,sprite4,true,7
+obsticle,850,310,50,50,sprite4,true,8
+obsticle,950,370,50,50,sprite4,true,9
+obsticle,1200,500,50,50,sprite4,true,10
+obsticle,1400,550,50,50,sprite4,true,11
+obsticle,1500,525,50,50,sprite4,true,12
+obsticle,1650,550,50,50,sprite4,true,13
+obsticle,1700,525,50,50,sprite4,true,14
+obsticle,1850,500,50,50,sprite4,true,15
+obsticle,2000,450,50,50,sprite4,true,16
+obsticle,2100,400,50,50,sprite4,true,17
+obsticle,2200,500,50,50,sprite4,true,18
+obsticle,2300,475,50,50,sprite4,true,19
+obsticle,2400,450,50,50,sprite4,true,20
+obsticle,2500,500,50,50,sprite4,true,21
+obsticle,3950,550,50,50,sprite4,true,22
+
+//,LEVEL2
+//,obsticle,4200,550,50,50,sprite4,true,23
+//,obsticle,4320,500,50,50,sprite4,true,24
+//,obsticle,4460,450,50,50,sprite4,true,25
+//,obsticle,4600,400,50,50,sprite4,true,26
+//,obsticle,4740,350,50,50,sprite4,true,27
+//,obsticle,4880,300,50,50,sprite4,true,28
+//,obsticle,5020,250,50,50,sprite4,true,29
+//,obsticle,5160,200,50,50,sprite4,true,30
+//,obsticle,5300,150,50,50,sprite4,true,31
+//,obsticle,5440,100,50,50,sprite4,true,32
+//,obsticle,5580,50,50,50,sprite4,true,33
+//,obsticle,5720,50,50,50,sprite4,true,34
+//,obsticle,5020,550,50,50,sprite4,true,35
+//,obsticle,5150,500,50,50,sprite4,true,36
+//,obsticle,5290,450,50,50,sprite4,true,37
+//,obsticle,5430,400,50,50,sprite4,true,38
+//,obsticle,5570,350,50,50,sprite4,true,39
+//,obsticle,5710,300,50,50,sprite4,true,40
+//,obsticle,5860,250,50,50,sprite4,true,41
+//,obsticle,6000,300,50,50,sprite4,true,42
+//,obsticle,6140,350,50,50,sprite4,true,43
+//,obsticle,6280,400,50,50,sprite4,true,44
+//,obsticle,6420,450,50,50,sprite4,true,45
+//,obsticle,6560,450,50,50,sprite4,true,46
+//,obsticle,6700,400,50,50,sprite4,true,47
+//,obsticle,6840,350,50,50,sprite4,true,48
+//,obsticle,6980,350,50,50,sprite4,true,49
+//,obsticle,7950,550,50,50,sprite4,true,50
+
+//,LEVEL 3
+//,obsticle,8350,410,50,50,sprite4,true,51
+//,obsticle,8750,240,50,50,sprite4,true,52
+//,obsticle,8900,200,50,50,sprite4,true,53
+//,obsticle,9300,550,50,50,sprite4,true,54
+//,obsticle,9500,150,50,50,sprite4,true,55
+//,obsticle,9450,470,50,50,sprite4,true,56
+//,obsticle,10200,550,50,50,sprite4,true,57
+//,obsticle,10350,450,50,50,sprite4,true,58
+//,obsticle,10500,350,50,50,sprite4,true,59
+//,obsticle,10650,250,50,50,sprite4,true,60
+//,obsticle,10750,350,50,50,sprite4,true,61
+//,obsticle,10900,550,50,50,sprite4,true,62
+
+
+//,obstacle block2 100 by 50 sprite
+//,LEVEL 1
+obsticle,0,550,100,50,sprite5,true,63
+obsticle,100,550,100,50,sprite5,true,64
+obsticle,550,550,100,50,sprite5,true,65
+obsticle,650,550,100,50,sprite5,true,66
+obsticle,750,550,100,50,sprite5,true,67
+obsticle,900,550,100,50,sprite5,true,68
+obsticle,1000,525,100,50,sprite5,true,69
+obsticle,2600,550,100,50,sprite5,true,70
+obsticle,2700,550,100,50,sprite5,true,71
+obsticle,2800,550,100,50,sprite5,true,72
+
+//,LEVEL2 - 4000
+//,obsticle,4000,550,100,50,sprite5,true,73
+//,obsticle,4100,550,100,50,sprite5,true,74
+//,obsticle,4920,550,100,50,sprite5,true,75
+//,obsticle,7000,550,100,50,sprite5,true,76
+//,obsticle,7100,550,100,50,sprite5,true,77
+
+//,LEVEL 3 - 8000
+//,obsticle,8000,550,100,50,sprite5,true,78
+//,obsticle,8140,500,100,50,sprite5,true,79
+//,obsticle,8500,500,100,50,sprite5,true,80
+//,obsticle,8520,300,100,50,sprite5,true,81
+//,obsticle,9050,100,100,50,sprite5,true,82
+//,obsticle,8950,500,100,50,sprite5,true,83
+//,obsticle,9047,500,100,50,sprite5,true,84
+//,obsticle,9200,250,100,50,sprite5,true,85
+//,obsticle,9295,250,100,50,sprite5,true,86
+//,obsticle,9600,350,100,50,sprite5,true,87
+//,obsticle,9695,350,100,50,sprite5,true,88
+//,obsticle,9930,350,100,50,sprite5,true,89
+//,obsticle,10025,350,100,50,sprite5,true,90
+//,obsticle,10240,250,100,50,sprite5,true,91
+
+
+//,obstacle block3 150 by 50 sprite 
+//,LEVEL 1
+obsticle,2900,550,150,50,sprite6,true,92
+obsticle,3050,550,150,50,sprite6,true,93
+obsticle,3200,550,150,50,sprite6,true,94
+obsticle,3350,550,150,50,sprite6,true,95
+obsticle,3500,550,150,50,sprite6,true,96
+obsticle,3650,550,150,50,sprite6,true,97
+obsticle,3800,550,150,50,sprite6,true,98
+
+//,LEVEL 2 - 4000
+//,obsticle,5760,550,150,50,sprite6,true,100
+//,obsticle,7200,550,150,50,sprite6,true,101
+//,obsticle,7350,550,150,50,sprite6,true,102
+//,obsticle,7500,550,150,50,sprite6,true,103
+//,obsticle,7650,550,150,50,sprite6,true,104
+//,obsticle,7800,550,150,50,sprite6,true,105
+
+//,obstacle spike1 50 by 50 sprite  
+//,LEVEL 1
+trigger,554,499,32,2,none,0,3
+obsticle,550,500,40,50,sprite7,true,106
+trigger,754, 499,32,2,none,0,3
+obsticle,750,500,40,50,sprite7,true,107
+trigger,854, 552,42,2,none,0,3
+obsticle,850,553,50,50,sprite7,true,108
+
+
+//,LEVEL 2
+//,trigger,4389,549,32,2,none,0,1
+//,obsticle,4387,550,40,50,sprite7,true,109
+//,trigger,4530,549,32,2,none,0,1
+//,obsticle,4530,550,40,50,sprite7,true,110
+//,trigger,4880,549,32,2,none,0,1
+//,obsticle,4880,550,40,50,sprite7,true,111
+//,trigger,5090,549,32,2,none,0,1
+//,obsticle,5090,550,40,50,sprite7,true,112
+//,trigger,5385,549,32,2,none,0,1
+//,obsticle,5385,550,40,50,sprite7,true,113
+//,trigger,5680,549,32,2,none,0,1
+//,obsticle,5680,550,40,50,sprite7,true,114
+//,trigger,5930,549,32,2,none,0,1
+//,obsticle,5930,550,40,50,sprite7,true,115
+//,trigger,6490,549,32,2,none,0,1
+//,obsticle,6490,550,40,50,sprite7,true,116
+//,trigger,6770,549,32,2,none,0,1
+//,obsticle,6770,550,40,50,sprite7,true,117
+
+//,LEVEL 3
+//,trigger,8264,549,32,2,none,0,3
+//,obsticle,8260,550,40,50,sprite7,true,118
+//,trigger,8304,549,32,2,none,0,3
+//,obsticle,8300,550,40,50,sprite7,true,119
+//,trigger,8344,549,32,2,none,0,3
+//,obsticle,8340,550,40,50,sprite7,true,120
+//,trigger,8384,549,32,2,none,0,3
+//,obsticle,8380,550,40,50,sprite7,true,121
+//,trigger,8424, 549,32,2,none,0,3
+//,obsticle,8420,550,40,50,sprite7,true,122
+//,trigger,8344,549,32,2,none,0,3
+//,obsticle,8460,550,40,50,sprite7,true,123
+//,trigger,8911,552,42,2,sprite1,0,3
+//,obsticle,8907,553,50,50,sprite7,true,124
+//,trigger,9804,549,32,2,none,0,3
+//,obsticle,9800,550,40,50,sprite7,true,125
+//,trigger,9844,549,32,2,none,0,3
+//,obsticle,9840,550,40,50,sprite7,true,126
+//,trigger,9884,549,32,2,none,0,3
+//,obsticle,9880,550,40,50,sprite7,true,127
+//,trigger,10804,399,32,2,none,0,3
+//,obsticle,10800,400,40,50,sprite7,true,128
+//,trigger,10844,399,32,2,none,0,3
+//,obsticle,10840,400,40,50,sprite7,true,129
+
+//,obstacle spike2 100 by 50 sprite
+//,LEVEL 1
+trigger,1104,552,92,2,none,0,3
+obsticle,1100,553,100,50,sprite8,true,130
+trigger,1554,552,92,2,none,0,3
+obsticle,1550,553,100,50,sprite8,true,131
+trigger,2254,552,92,2,none,0,3
+obsticle,2250,553,100,50,sprite8,true,132
+trigger,2354,552,92,2,none,0,3
+obsticle,2350,553,100,50,sprite8,true,133
+
+//,LEVEL 3
+//,trigger,9200,552,92,2,none,0,3
+//,obsticle,9194,553,100,50,sprite8,true,134
+//,trigger,10254,552,92,2,none,0,3
+//,obsticle,10250,553,100,50,sprite8,true,135
+//,trigger,10354,552,92,2,none,0,3
+//,obsticle,10350,553,100,50,sprite8,true,136
+
+//,obstacle spike3 150 by 50 sprite
+//,LEVEL 1
+trigger,1254,552,142,2,none,0,3
+obsticle,1250,553,150,50,sprite9,true,137
+trigger,1754,552,142,2,none,0,3
+obsticle,1750,553,150,50,sprite9,true,138
+trigger,1904,552,142,2,none,0,3
+obsticle,1900,550,150,50,sprite9,true,139
+trigger,2054,552,142,2,none,0,3
+obsticle,2050,553,150,50,sprite9,true,140
+
+//,LEVEL 3
+//,obsticle,10050,550,150,50,sprite9,true,141
+
+
+
+//,obstacle Hour Glass  
+//,LEVEL 1
+trigger,650,500,40,50,sprite10,-1,2
+trigger,1650,500,40,50,sprite10,-1,2
+
+//,LEVEL 2
+//,trigger,4920,500,40,40,sprite10,-1,2
+//,trigger,5710,250,40,50,sprite10,-1,2
+//,trigger,6700,350,40,50,sprite10,-1,2
+
+
+//,LEVEL 3
+//,trigger,8760,190,40,50,sprite10,-1,2
+//,trigger,9510,100,40,50,sprite10,-1,2
+//,trigger,10205,500,40,50,sprite10,-1,2
+
+//, Warp Door
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+trigger,3975,0,25,600,none,0,4
+
+//,trigger,<x>,<y>,<width>,<height>,<spritename>,<delay>,<gameid>
+//, This trigger is the bottom so if you fall, you die
+trigger,0,599,4000,2,none,0,1
+
+
+//,gamemessageI,<type>,<qual>,<p1>,<p2>
+//,gamemessageF,<type>,<qual>,<p1>,<p2>
+gamemessageF,1,1,250.0,-1
+gamemessageF,2,1,-250.0,-1
+gamemessageF,2,2,0,0
+gamemessageF,2,4,-80,80
+gamemessageSprite,2,3,0,runrightSprite
+gamemessageSprite,2,3,1,runleftSprite
+gamemessageSprite,2,3,2,standrightSprite
+gamemessageSprite,2,3,3,standleftSprite
+gamemessageSprite,2,3,4,jumprightSprite
+gamemessageSprite,2,3,5,jumpleftSprite
+gamemessageSprite,2,3,6,fallrightSprite
+gamemessageSprite,2,3,7,fallleftSprite

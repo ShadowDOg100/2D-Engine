@@ -1,0 +1,11 @@
+name,menu4
+
+//,loadsprite,<spritename>,<filename>,<x>,<y>,<width>,<height>,<frames>,<looping>
+loadsprite,sprite1,red.png,0,0,25,25,1,false
+loadsprite,sprite2,blue.png,0,0,25,25,1,false
+
+//,menudata,<x>,<y>,<width>,<height>,<spritename>,<userinfo>
+menudata,300,300,120,120,none,1
+
+//,button,<x>,<y>,<width>,<height>,<text>,<usp>,<hsp>,<dsp>,<userinfo>
+button,10,10,100,30,YOU LOSE,sprite1,sprite2,sprite1,1
